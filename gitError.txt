@@ -1,0 +1,7 @@
+Err1:
+$ git push remote origin
+error: src refspec origin does not match any.
+error: failed to push some refs to 'remote'
+Sol1:
+通过先add文件再commit 文件到项目中，然后就可以把项目中的文件，push到服务器上了.
+git push origin master
